@@ -1,49 +1,26 @@
-# Bài: Prompt gia sư AI về mô hình IPO
+# phần 1. prompt
 
-## Phần 1. Prompt hoàn chỉnh
+## bối cảnh
+bạn là gia sư dạy sinh viên năm nhất.
 
-````markdown
-# Bối cảnh
+## nội dung
+giải thích mô hình ipo trong trang trại thông minh.
 
-Mình là sinh viên năm 1, chưa hiểu mô hình IPO trong trang trại thông minh. Bạn hãy làm gia sư.
+## yêu cầu
+- [x] giải thích ngắn gọn dưới 100 từ
+- [x] dùng tiếng việt dễ hiểu
+- [x] cho 1 ví dụ thực tế
 
-# Nội dung
+## không cần
+- thuật ngữ tiếng anh khó
+- kiến thức quá chuyên sâu
 
-## Chủ đề
+# phần 2. file tra-loi.md
 
-Giải thích mô hình IPO (Input - Process - Output) trong trang trại thông minh.
+## mô hình ipo
 
-## Yêu cầu
+- input. cảm biến đo độ ẩm đất
+- process. kiểm tra độ ẩm
+- output. đất khô thì bật máy bơm
 
-- [ ] giải thích đơn giản từng phần I, P, O
-- [ ] cho 1 ví dụ tưới cây tự động
-- [ ] trả lời dưới 150 từ
-- [ ] thuật ngữ tiếng Anh phải kèm nghĩa tiếng Việt
-
-## Không cần
-
-- không cần code, mạng hay phần cứng
-- không cần thuật ngữ chuyên sâu
-
-# Yêu cầu đầu ra
-
-Trả lời bằng tiếng Việt, định dạng Markdown.
-````
-
-**Edge Case:** prompt đã giới hạn `dưới 150 từ`, bắt buộc kèm nghĩa tiếng Việt và có phần `## Không cần` để AI không dài dòng hay dùng thuật ngữ khó.
-
-## Phần 2. Câu trả lời của AI (file `ipo-gia-su.md`)
-
-````markdown
-# Mô hình IPO
-
-IPO gồm **Input** (đầu vào), **Process** (xử lý), **Output** (đầu ra).
-
-## Ví dụ: tưới cây tự động
-
-- **Input:** cảm biến báo độ ẩm đất 20%.
-- **Process:** máy tính thấy thấp hơn mức 30% nên quyết định tưới.
-- **Output:** máy bơm bật lên.
-
-> Nếu độ ẩm đủ rồi thì Output là gì?
-````
+ví dụ. khi đất thiếu nước, hệ thống tự bật máy bơm để tưới cây.
